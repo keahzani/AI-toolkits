@@ -1,0 +1,41 @@
+# ----------------------------------------
+# 1. Virtual Environment (DO NOT COMMIT!)
+# ----------------------------------------
+.venv/
+venv/
+env/
+# OS-specific environments
+*.virtualenv
+
+# ----------------------------------------
+# 2. Python Bytecode and Auto-generated Files
+# ----------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# ----------------------------------------
+# 3. Notebook and ML-Specific Files
+# ----------------------------------------
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Model checkpoints, saved models, and logs
+*.pkl
+*.joblib
+*.h5
+*.keras
+logs/
+checkpoints/
+
+# ----------------------------------------
+# 4. Data and Results (Often ignored in ML projects)
+# ----------------------------------------
+# NOTE: If your raw data is very large (which we know your CSV is),
+# you should ignore the raw data and include a requirements.txt file.
+# We will keep the small data file for this assignment, but ignore big ones.
+# data/
+
+# Results and Output files
+results/
+tmp/
